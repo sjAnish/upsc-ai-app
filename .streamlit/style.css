@@ -1,0 +1,113 @@
+/* MAIN APP SPACING */
+
+.block-container {
+
+    padding-top: 1rem;
+
+    padding-bottom: 1rem;
+
+    padding-left: 1.2rem;
+
+    padding-right: 1.2rem;
+}
+
+/* BUTTONS */
+
+.stButton > button {
+
+    width: 100%;
+
+    border-radius: 12px;
+
+    height: 3rem;
+
+    font-size: 16px;
+
+    font-weight: 600;
+}
+
+/* INPUT BOXES */
+
+.stTextInput input {
+
+    border-radius: 10px;
+}
+
+/* SELECT BOX */
+
+.stSelectbox div[data-baseweb="select"] {
+
+    border-radius: 10px;
+}
+
+/* METRIC CARDS */
+
+.metric-card {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 16px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+
+    text-align: center;
+
+    margin-bottom: 1rem;
+}
+
+/* FEATURE CARDS */
+
+.feature-card {
+
+    background: linear-gradient(
+        135deg,
+        #4f46e5,
+        #7c3aed
+    );
+
+    padding: 20px;
+
+    border-radius: 18px;
+
+    color: white;
+
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+
+    margin-bottom: 1rem;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .block-container {
+
+        padding-left: 0.5rem;
+
+        padding-right: 0.5rem;
+    }
+
+    h1 {
+
+        font-size: 28px !important;
+    }
+
+    h2 {
+
+        font-size: 22px !important;
+    }
+
+    h3 {
+
+        font-size: 18px !important;
+    }
+
+    .stButton > button {
+
+        height: 2.8rem;
+
+        font-size: 14px;
+    }
+}
