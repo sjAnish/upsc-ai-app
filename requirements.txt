@@ -1,0 +1,9 @@
+streamlit
+groq
+python-dotenv
+feedparser
+beautifulsoup4
+pandas
+folium
+streamlit-folium
+requests
